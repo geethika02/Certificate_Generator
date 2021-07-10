@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
-import os
-import csv
+
 from PIL import ImageFont,ImageDraw,Image
 f = open("participants.txt","r")
 names = f.read().split('\n')
